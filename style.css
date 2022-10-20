@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 998;
+    transition: all 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav .navbar{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+nav .navbar .logo a{
+    font-weight: 500;
+    font-size: 35px;
+    color: black;
+}
+
+nav .navbar .menu{
+    display: flex;
+    position: relative;
+}
+
+nav .navbar .menu li{
+    list-style: none;
+    margin: 0 8px;
+}
+
+.navbar .menu a{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    padding: 6px 0;
+}
+
+.navbar .menu a:hover{
+    color: blue;
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home .home-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home .text-one{
+    font-size: 25px;
+    color: black;
+}
+
+.home .text-two{
+    color: black;
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .text-three{
+    font-size: 40px;
+    margin: 5px 0;
+    color: black;
+}
+
+.home .button{
+    margin: 14px 0;
+}
+
+.home .button button{
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.4s ease;
+}
+
+.home .button button:hover{
+    border-color: blue;
+    background-color: white;
+    color: black;
+}
+
+section{
+    padding-top: 40px;
+}
+
+section .content{
+    width: 80%;
+    margin: 40px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about .about-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+section .title span{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.about-details .desc{
+    width: 55%;
+}
+
+section .topic{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px
+}
+
+.about-details .descrip p{
+    text-align: justify;
+    color: black;
+}
+
+.skills{
+    background: whitesmoke;
+}
+
+.skills .content{
+    padding: 40px 0;
+}
+
+.skills .skills-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills-details .text{
+    width: 50%;
+}
+
+.skills-details .text{
+    width: 50%;
+}
+
+.skills-details p{
+    color: black;
+    text-align: justify;
+}
+
+.skills .skills .experience{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.skills-details .experience .fresh{
+    color: black;
+    font-size: 50px;
+}
+
+.skills-details .experience .exp{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 6px;
+}
+
+.skills-details .boxes{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills-details .box{
+    width: calc(100% / 2 - 20px);
+    margin: 20px 0;
+}
+
+.skills-details .boxes .topic{
+    font-size: 20px;
+    color: rgb(11, 34, 43);
+}
+
+.skills-details .boxes .per{
+    font-size: 60px;
+    color: green;
+}
+
+.services .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services .boxes .box{
+    margin: 20px 0;
+    width: calc(100% / 3 - 20px);
+    text-align: center;
+    border-radius: 12px;
+    padding: 30px 10px;
+    box-shadow: 0 5ps 10px black;
+    cursor: default;
+    transition: all 0.4s ease;
+}
+
+.services .boxes .box:hover{
+    background: black;
+    color: white;
+}
+
+.services .boxes .box:hover .topic,
+.services .boxes .box:hover p{
+    color: white;
+}
+
+.contact{
+    background: whitesmoke;
+}
+
+.contact .content{
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.contact .text{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+footer{
+    background: rgb(61, 59, 59);
+    padding: 15px 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .text span{
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+}
+
+footer .text span a{
+    font-weight: 500;
+    color: white;
+}
